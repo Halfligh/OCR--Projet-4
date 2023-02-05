@@ -285,6 +285,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+ 
 }
 
 .navbar {
@@ -651,7 +652,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
 }
 
 .container {
@@ -723,11 +723,36 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: "white"
 }
 
 h4 {
     color: #333333!important;
+}
+
+.description-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.description-h2{
+    font-size: 30px;
+}
+
+.services-h3{
+    font-size: 15px;
+}
+
+.testimonial-text{
+    font-size: 18px;
+    font-style: italic;
+    color: grey;
+}
+
+.testimonial-author{
+    color: rgb(79, 79, 79);
+    font-style: italic;
 }
 
 .icons {
