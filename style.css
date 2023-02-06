@@ -1,16 +1,17 @@
 body {
-    margin: 0;
-    padding: 0;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
 }
 
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
 }
 
 a:hover {
@@ -692,7 +693,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -730,6 +731,10 @@ h4 {
     color: #333333!important;
 }
 
+.font-size-S{
+    font-size: 15px;
+}
+
 .description-row {
     display: flex;
     justify-content: center;
@@ -761,7 +766,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -771,6 +776,11 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+}
+
+.portfolio-title {
+    font-size: 24px;
+    padding-bottom: 50px;
 }
 
 .avatar {
