@@ -752,7 +752,7 @@ h4 {
 .testimonial-text{
     font-size: 18px;
     font-style: italic;
-    color: grey;
+    color: black;
 }
 
 .testimonial-author{
@@ -823,6 +823,27 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.btn-atomic-black-and-white {
+    background-color: white;
+    color: #000000;
+}
+
+.btn-atomic-black-and-white:hover {
+    background-color: #F3976C;
+    color: #000000;
+}
+
+.btn-atomic-black-and-white-page-2 {
+    background-color: #f3976c7f;
+    color: #000000;
+}
+
+.btn-atomic-black-and-white-page-2:hover {
+    background-color: #F3976C;
+    color: #000000;
+}
+
+
 .ltc-white {
     color: #FFFFFF!important;
 }
@@ -858,6 +879,10 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+}
+
+.list-a{
+    color: #000000;
 }
 
 @media (max-width: 1024px) {
